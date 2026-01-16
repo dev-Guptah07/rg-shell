@@ -1,0 +1,9 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/rg-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  },
+  "include": ["src", "src/**/*.d.ts"],
+  "exclude": ["src/**/*.test*"]
+}

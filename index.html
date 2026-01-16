@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RG Shell</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.min.js"></script>
+
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+           "@rg/dummy": "http://localhost:3000/index.js"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <script type="module" src="/src/rg-root-config.ts"></script>
+  </body>
+</html>
