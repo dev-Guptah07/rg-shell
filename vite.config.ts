@@ -7,7 +7,6 @@ export default defineConfig({
   build: {
     target: 'esnext',
     rollupOptions: {
-      input: 'src/rg-root-config.ts',
       output: {
         format: 'system',
         entryFileNames: 'rg-root-config.js'
